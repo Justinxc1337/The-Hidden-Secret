@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 8: expected statement.
-    def
-       ^
+File "game/script.rpy", line 63: end of line expected.
+    show mascot at fixedmascot_size, ypos 50%
+                                          ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Tue Feb 27 17:57:08 2024
+Sat May  4 02:01:14 2024
