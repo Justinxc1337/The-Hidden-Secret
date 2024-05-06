@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 63: end of line expected.
-    show mascot at fixedmascot_size, ypos 50%
-                                          ^
+File "game/script.rpy", line 77: expected a keyword argument, colon, or end of line.
+    text "$[inventory.money]" color "#FFFFFF" 4
+                                              ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Sat May  4 02:01:14 2024
+Tue May  7 00:02:30 2024
