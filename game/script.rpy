@@ -81,8 +81,6 @@ label start:
         ypadding 5
         background Frame("gui/frame.png")
 
-    show screen money_display
-
     $ current_money = inventory.money
 
     image intro_video = Movie(size=(1920, 1080), channel="movie", play="images/video/IntroPortal.webm", loop=True)
@@ -144,6 +142,8 @@ label mainstorytutorial:
     show teststreet
 
     show mascot2 at fixedmascot_size, center
+
+    show screen money_display
 
     mascotfemale "Perfect! Let's get started."
 
